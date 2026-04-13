@@ -38,7 +38,7 @@ except Exception:
     XGBClassifier = None
     XGBRegressor = None
 
-#import tensorflow as tf
+import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
